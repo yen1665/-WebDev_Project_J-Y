@@ -1,0 +1,122 @@
+/* --------------------- */
+/* Global Styles */
+/* --------------------- */
+body {
+    background-color: #FFFFFF;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------- */
+/* Header */
+/* --------------------- */
+header {
+    background-color: #FFD6E0;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 3px solid #FFC4C4;
+}
+
+header h1 {
+    color: #C762E1;
+    font-size: 2.5em;
+    letter-spacing: 1.5px;
+}
+
+/* --------------------- */
+/* Navbar */
+/* --------------------- */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 15px 0 0 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #C762E1;
+    font-size: 1.1em;
+}
+
+/* --------------------- */
+/* Main Content */
+/* --------------------- */
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+main h2 {
+    color: #FF8AAE;
+    font-size: 1.8em;
+}
+
+/* --------------------- */
+/* Anime Cards Container */
+/* --------------------- */
+.anime-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    /* keeps cards in one row */
+    overflow-x: auto;
+    /* scroll horizontally if screen too small */
+    gap: 30px;
+    margin-top: 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+/* --------------------- */
+/* Individual Anime Cards */
+/* --------------------- */
+.anime-card {
+    text-decoration: none;
+    color: #C762E1;
+    background-color: #FFF0F5;
+    padding: 16px;
+    border-radius: 25px;
+    border: 2px solid #FFD6E0;
+    display: inline-block;
+    width: 200px;
+    transition: transform 0.2s ease;
+}
+
+.anime-card img {
+    border-radius: 18px;
+    width: 100%;
+    height: auto;
+}
+
+.anime-card span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.anime-card:hover {
+    transform: scale(1.05);
+}
+
+/* --------------------- */
+/* Footer */
+/* --------------------- */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #FFD6E0;
+    color: #C762E1;
+    text-align: center;
+    padding: 12px 0;
+    border-top: 3px solid #FFC4C4;
+    font-size: 0.9em;
+}
